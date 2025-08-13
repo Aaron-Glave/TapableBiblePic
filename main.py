@@ -28,7 +28,6 @@ show_text = False
 #Credit: https://stackoverflow.com/questions/10077644/how-to-display-text-with-font-and-color-using-pygame
 myfont = pygame.font.SysFont("monospace", 18)
 text = myfont.render("Reminder: God is stronger than Satan!", 1, (64, 0, 128))
-#hi
 #import time
 #time.sleep(57)
 pygame.key.stop_text_input()
