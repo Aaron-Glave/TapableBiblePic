@@ -26,7 +26,7 @@ restart = 123
 pygame.mixer.music.set_endevent(pygame.QUIT)
 show_text = False
 #Credit: https://stackoverflow.com/questions/10077644/how-to-display-text-with-font-and-color-using-pygame
-myfont = pygame.font.SysFont("monospace", 18)
+myfont = pygame.font.SysFont("monospace", 20)
 text = myfont.render("Reminder: God is stronger than Satan!", 1, (64, 0, 128))
 #import time
 #time.sleep(57)
@@ -57,6 +57,6 @@ while running:
         show_text = False
     if show_text:
         #Credit: https://stackoverflow.com/questions/10077644/how-to-display-text-with-font-and-color-using-pygame
-        game_display.blit(text, (window_width*(1-0.9), window_height*(1-0.180)))
+        game_display.blit(text, (window_width*(1-0.975), window_height*(1-0.180)))
     pygame.display.update()
 pygame.quit()
